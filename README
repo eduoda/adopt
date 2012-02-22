@@ -17,14 +17,14 @@ along with Adopt.  If not, see <http://www.gnu.org/licenses/>.
 
 INTRODUCTION
 ============
-A nonlinear problem:
+Given a nonlinear problem:
 	min	 f(x)
 	s.t. g_L <= g(x) <= g_U
 		 x_L <=   x  <= x_U
 	x \in R^n
 	f: R^n --> R
 	g: R^n --> R^m
-can be solved by implementation of the classes: Problem and Solver.
+it can be solved by implementation of the classes: Problem and Solver.
 
 Your implementation of Problem can optionally redefine the
 get_initial_multipliers method to set initial values to
