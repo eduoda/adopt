@@ -24,7 +24,7 @@ Given a nonlinear problem:
 	x \in R^n
 	f: R^n --> R
 	g: R^n --> R^m
-it can be solved by implementation of the classes: Problem and Solver.
+it can be solved by implementing two classes: Problem and Solver.
 
 Your implementation of Problem can optionally redefine the
 get_initial_multipliers method to set initial values to
